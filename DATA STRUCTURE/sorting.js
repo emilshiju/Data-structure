@@ -14,7 +14,7 @@ function bubbleSorting(arr) {
         let temp = arr[i];
         arr[i] = arr[i + 1];
         arr[i + 1] = temp;
-        swapped = true;
+        swapped = true; 
       }
     }
   } while (swapped);
@@ -102,7 +102,7 @@ function merge(a, lb, mid, ub) {
     } else {
       j++;
       b[k] = a[j];
-    }
+      }
     k++;
   }
   if (i > mid) {
